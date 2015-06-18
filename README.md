@@ -3,7 +3,7 @@ This repository contains the Dockerfile for the autobuild of [wordpress-with-wp-
 
 The Dockerfile uses the official WordPress image and adds [wp-cli](http://wp-cli.org/).
 
-To use, simply install 
+To use, simply run: 
 
     docker run --name <containername> conetix/wordpress-with-wp-cli
 
