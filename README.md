@@ -1,9 +1,15 @@
 # docker-wordpress-wp-cli
-This repository contains the Dockerfile for the autobuild of [wordpress-with-wp-cli](https://registry.hub.docker.com/u/timbutler/wordpress-with-wp-cli/) Docker image.
+
+![Docker Stars](https://img.shields.io/docker/stars/conetix/wordpress-with-wp-cli.svg)
+![Docker Pulls](https://img.shields.io/docker/pulls/conetix/wordpress-with-wp-cli.svg)
+![Docker Automated](https://img.shields.io/docker/automated/conetix/wordpress-with-wp-cli.svg)
+![Docker Build](https://img.shields.io/docker/build/conetix/wordpress-with-wp-cli.svg)
+
+This repository contains the Dockerfile for the autobuild of [wordpress-with-wp-cli](https://hub.docker.com/r/conetix/wordpress-with-wp-cli/) Docker image.
 
 The Dockerfile uses the official WordPress image and adds [wp-cli](http://wp-cli.org/).
 
-To use, simply run: 
+To use, simply run:
 
     docker run --name <containername> conetix/wordpress-with-wp-cli
 
@@ -14,4 +20,8 @@ After you've completed the WordPress installation via the browser, you call the 
     docker exec <containername> wp theme install quark
     docker exec <containername> wp theme activate quark
 
-Please feel free to fork and use for your own projects.
+# Development and Contributions
+
+As this repo and image are designed to be customised to your own requirements, please feel free to fork and update.
+
+Any bugs, please submit as a pull request and they will be incorporated into the master image.
